@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body onload="getFriends(); receiveMessage()">
+    <button class="logout" id="logout" onclick="">LogOut</button>
+    <div class="amigos">
+        <!-- Para agregar nuevos amigos -->
+        <div class="input-amigos">
+            <label for="friend">Correo electrónico del nuevo amigo:</label><br>
+            <input type="email" id="friend">
+            <button class="boton-agregar" onclick="addFriend()" id="addFriendButton">Agregar</button>
+        </div>
+
+        <!-- Menú desplegable para seleccionar amigos -->
+        <div class="seleccion-amigos">
+            <label for="selectFriend">Seleccionar amigo para chat:</label><br>
+            <select id="selectFriend">
+            </select>
+        </div>
+
+
+
+       <!-- Pantalla de texto -->
+       <div class="contenedor">
+        <div id="chatArea1" class="chatArea"></div>
+        <div id="chatArea2" class="chatArea" style="display: none;"></div>
+        <div id="chatArea3" class="chatArea" style="display: none;"></div>
+        <div id="chatArea4" class="chatArea" style="display: none;"></div>
+        <div id="chatArea5" class="chatArea" style="display: none;"></div>
+    </div>
+
+        
+
+
+
+        <!-- Campo de entrada para enviar mensajes -->
+        <div class="linea-mensaje">
+            <label for="message">Escribe tu mensaje:</label><br>
+            <input type="text" id="message">
+            <button class="boton-chat" onclick="sendMessage()" id="sendMessageButton">Enviar</button>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>

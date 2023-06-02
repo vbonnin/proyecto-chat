@@ -75,8 +75,3 @@ Este servicio permite enviar un mensaje al backend. Debe enviar un mensaje POST 
 - session: código de sesión.
 - receptor: correo electrónico del destinatario del mensaje.
 - sms: texto del mensaje.
-
-
-
-
-# proyecto-chat

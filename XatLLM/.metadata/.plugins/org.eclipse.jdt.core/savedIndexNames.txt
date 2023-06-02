@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+/Users/victorbonninpalou/Desktop/proyecto-chat/XatLLM/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+694828071.index
+556027530.index
+1157317996.index
+2152863227.index
+3939774360.index
